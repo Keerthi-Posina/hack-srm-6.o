@@ -1,26 +1,27 @@
 package com.hack_srm.server.models;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.List;
 
 @Entity
+@Getter
+@Setter
+@Table(name ="quiz")
 public class Quiz {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    @ManyToOne
-    @JoinColumn(name = "learning_path_id", nullable = false)
-    private LearningPathModel learningPath;
 
     @OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Question> questions;
 
     @OneToOne
-    @JoinColumn(name = "content_id", unique = true) // Ensure one-to-one with Content
-    private Content content;
+    @JoinColumn(name = "step_id", unique = true) // Ensure One-to-One with Step
+    private Step step;
 
     private int totalMarks;
     private int passingMarks;

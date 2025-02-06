@@ -15,4 +15,6 @@ public class AdminModel extends UserModel{
     @Enumerated(EnumType.STRING)
     private FieldOfStudies fos;
 
+
+
 }

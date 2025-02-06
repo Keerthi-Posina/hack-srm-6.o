@@ -26,6 +26,6 @@ public class CourseModel {
     @OneToMany(mappedBy = "course")
     private List<SectionModel> sections;
 
-    @OneToMany(mappedBy = "course_outcomes")
+    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<CourseOutcome> cos;
 }

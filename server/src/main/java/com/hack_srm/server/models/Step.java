@@ -21,6 +21,9 @@ public class Step {
     @JoinColumn(name = "content_id")
     private Content content;
 
+    @OneToOne(mappedBy = "step", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Quiz quiz;
+
     @OneToMany(mappedBy = "step", cascade = CascadeType.ALL)
     private List<LearningResource> resources;
 

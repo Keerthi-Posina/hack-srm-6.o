@@ -10,7 +10,6 @@ public interface QuizService {
     List<Quiz> getAllQuizzes();
     Quiz getQuizById(Long id);
     Quiz createQuiz(QuizDTO quiz);
-    Quiz saveQuiz(Quiz quiz);
     Quiz updateQuiz(Long id, QuizDTO updatedQuiz);
     void deleteQuiz(Long id);
 

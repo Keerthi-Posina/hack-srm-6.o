@@ -23,8 +23,4 @@ public class Content {
 
     @OneToMany(mappedBy = "content", cascade = CascadeType.ALL)
     private List<Step> steps;
-
-    @OneToOne(mappedBy = "content", cascade = CascadeType.ALL)
-    private Quiz quiz;
-
 }

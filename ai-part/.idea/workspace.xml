@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c408be64-4b6e-4d68-9e49-e069a15fc315" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ai-part.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/controllers/CoordinatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/controllers/FacultyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/controllers/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/CoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/StepDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/UserCreationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/CoRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/ContentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/QuestionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/QuizRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/StepRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/AdminServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CCServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/FacultyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/QuizServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/StepService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/StepServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/SubmissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/AuthResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/AuthResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/QuizDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/QuizDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/ResourceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/dto/ResourceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/AdminModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/AdminModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/CourseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/CourseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/AdminRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/AdminRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/CCRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/CCRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/FacultyRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/FacultyRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/LearningPathRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/LearningPathRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/repositories/StudentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CCService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CCService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/FacultyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/FacultyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/QuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/QuizService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/hack_srm/server/services/UserService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2se7ksZumcJ8H7BtH0R9PNeQLS7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FastAPI.ai-part.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ai-part" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="ai-part" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c408be64-4b6e-4d68-9e49-e069a15fc315" name="Changes" comment="" />
+      <created>1738804332786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738804332786</updated>
+      <workItem from="1738804333840" duration="4367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ai_part$ai_part.coverage" NAME="ai-part Coverage Results" MODIFIED="1738827274139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

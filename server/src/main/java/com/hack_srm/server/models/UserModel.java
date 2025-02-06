@@ -28,9 +28,11 @@ public abstract class UserModel {
     @Enumerated(EnumType.STRING)
     private UserRole role;
 
+    @Column(updatable = false)
     @UpdateTimestamp
     private Date updatedAt;
 
+    @Column(insertable = false, updatable = false)
     @CreationTimestamp
     private Date createdAt;
 

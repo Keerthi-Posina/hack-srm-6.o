@@ -1,11 +1,16 @@
 package com.hack_srm.server.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class QuizDTO {
 
-    private Long id;
-    private Long learningPathId;
     private String questionsJsonString;
-    private Long contentId;
+    private Long id;
+    private Long stepId;
     private Integer totalMarks;
     private Integer passingMarks;
+
 }
